@@ -131,3 +131,12 @@ a:visited
 	background-color: #C9F9FF;
 	
 }
+
+#main-item {
+	text-align: center;	
+}
+
+#main-item img {
+	border-radius: 25px;
+	border:5px solid #ffd9b3;
+}
