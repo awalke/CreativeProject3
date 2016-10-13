@@ -1,0 +1,57 @@
+html{
+	background-color: #edfdff;
+
+}
+
+.store-item img{
+	border-radius: 25px;
+	border:5px solid #ffd9b3;
+	width: 200px;
+	height: 200px;
+	transition:width 0.5s ease, height 0.5s ease;
+}
+
+.store-item img:hover{
+	width:250px;
+	height: 250px;
+	transition:width 0.5s ease, height 0.5s ease;
+}
+
+.item-wrapper:hover
+{	margin: 40px 0;
+	width:250px;
+	height: 250px;
+	transition:width 0.5s ease, height 0.5s ease, margin 0.5s ease;
+}
+
+.store-item p{
+	padding: 0;
+	margin: 0;
+}
+
+.store-item{
+	text-align: center;
+	
+}
+
+.item-wrapper
+{
+	display: inline-block;
+	width:210px;
+	height:230px;
+	padding: 0;
+	margin: 40px;
+	transition:width 0.5s ease, height 0.5s ease, margin 0.5s ease;
+}
+
+#items-list{
+	text-align:center;
+	margin:100px;
+	padding:50px;
+
+}
+
+#footer
+{
+	text-align:center;
+}
